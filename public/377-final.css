@@ -1,0 +1,170 @@
+#title {
+color: rgb(12, 12, 87);
+width: 100%;
+background-color: rgb(95, 126, 198);
+
+}
+#body {
+    background-color: rgb(161, 179, 208)
+}
+#main-nav{
+    background-color: rgb(81, 122, 156);
+    padding: 0%;
+    margin: 2px;
+    width: 98%;
+    border: 5px solid rgb(13, 41, 81);
+    font-family: times;
+    font: 100;
+    
+}
+
+#main-nav li{
+    display: inline;
+    position: relative;
+    padding: 13px;
+    height: 30px;
+    width: 5px;  
+}
+#main-nav a{
+    color: rgb(12, 12, 87);
+    font-family: verdana;
+
+}
+#main-nav li a:hover {
+    background-color:rgb(5, 37, 83);
+    height: 30px;
+    width: 5px;
+}
+.box {
+    border: 3px solid rgb(15, 0, 61);
+    width: 30%;
+    margin: 10px;
+    padding: 4px;
+}
+#myChart{
+    height: 100px;
+    width: 45%;
+}
+.mainTable{
+    border: 3px solid rgb(15, 0, 61);
+    width: 30%;
+    margin-top: 30px;
+    margin: 10px;
+    padding: 4px;  
+}
+.Sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+}
+.Table{
+    border: 3px solid rgb(15, 0, 61); 
+    padding-top: 10px;
+    margin-top: 200px;
+    margin-right: 30px;
+}
+.float-container {
+    border: 3px solid #fff;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}  
+.float-child2 {
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    padding: 20px;
+
+} 
+.charts{
+    height: 500;
+    width: 1000;
+} 
+#buttons{
+    width: 50%;
+    height: 400px;
+}
+button {
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-color: #24345c;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 50%;
+  height: 200px;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #2c3d67;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+.descriptionBox{
+    border: 3px solid rgb(237, 235, 243);
+    margin-top: 50px;
+    width: 50%;
+}
+.float-container2 {
+    border: 3px solid #80370c;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+.audio-box {
+        color: rgb(203, 209, 193);
+        background-color: rgb(0, 79, 131);
+        width: 37%;
+        margin: 3px;
+        padding: 5px;
+        font-family: cursive;
+}
+

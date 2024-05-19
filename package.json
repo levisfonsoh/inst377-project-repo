@@ -1,13 +1,12 @@
 {
-  "name": "inst377vercelproject",
+  "name": "finalapp",
   "version": "1.0.0",
-  "description": "Supabase App",
+  "description": "INST377 Final Project",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e *",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon -e '*'"
   },
-  "author": "Levis Forbang",
+  "author": "Levis",
   "license": "ISC",
   "dependencies": {
     "@supabase/supabase-js": "^2.43.2",

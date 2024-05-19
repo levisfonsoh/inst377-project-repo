@@ -1,0 +1,70 @@
+<HTML>
+    <head>
+        <center><h1 id = "title">TERP Weather System</h1></center>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+        <!--<script src="projecttest.js"></script>-->
+        <script type="text/javascript" src="helppagejs.js" defer></script>
+
+        <!--<script src="help_ticket.js"></script>-->
+        <link rel="stylesheet" href="377-final.css">
+    </head>
+    <body id = "body">
+        <header id = "main-nav">
+            <!--NAVIGATION BAR LINKS-->
+            <center>
+            <ul>
+                <li>
+                    <a id="hpage" href = "377-final-homePage.html">Home</a>
+                </li>
+                <li>
+                    <a id="apage" href = "377-final-aboutPage.html">About</a>
+                </li>
+                <li>
+                    <a id="hppage" href = "377-final-helpPage.html">HELP!</a>
+                </li>
+            </ul>
+            </center>
+        </header>
+        <center><h1>HELP</h1></center>
+        <!--Help Form-->
+        <div id = "help-form">
+            <form id="form123" onsubmit="createCustomer(); loadContactData(); return false">
+                <h3>Submit this form to let us know about the issue you're having</h3>
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" required>
+                <br>
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" required>
+                <br>
+                <label for="description">Description (50 characters limit):</label>
+                <br>
+                <textarea id="description" name="description" rows="4" cols="50"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="confirmationbox">
+            <h2 id="m1"></h2>
+            <h3 id="m2"></h3>
+            <h3 id="m3"></h3>
+            <div>
+                <table id="customersTable"></table>
+            </div>
+        <div class="audio-box">
+            <h2>In this web page there are options to Navigate using Audio!</h2>
+            <h3>Ensure your Mic is enabled to be able to use this feature</h3>
+            <ul>
+                <li>move to the about page</li>
+                    <ul><li>Say: "About page"</li></ul>
+                <li>Move to the home page</li>
+                    <ul><li>Say: "Home page"</li></ul>
+            </ul>
+            <div class="audio-button">
+                <button type="button" onclick="annyang.start(); return false">Turn On Listening</button>
+                <button type="button" onclick="annyang.abort(); return false">Turn off Listening</button>
+            <div>
+        </div>
+        </center>
+        
+    </body>
+</HTML>

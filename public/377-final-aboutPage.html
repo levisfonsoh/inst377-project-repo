@@ -1,0 +1,60 @@
+<HTML>
+    <head>
+        <center><h1 id="title">TERP Weather System</h1></center>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+        <link rel="stylesheet" href="377-final.css">
+        <script src="projecttest.js"></script>
+    </head>
+    <body id = "body">
+        <header id = "main-nav">
+            <!--NAVIGATION BAR LINKS-->
+            <center>
+            <ul>
+                <li>
+                    <a id="hpage" href = "377-final-homePage.html">Home</a>
+                </li>
+                <li>
+                    <a id="apage" href = "377-final-aboutPage.html">About</a>
+                </li>
+                <li>
+                    <a id="hppage" href = "377-final-helpPage.html">HELP!</a>
+                </li>
+            </ul>
+            </center>
+
+        </header>
+        <center><h1>ABOUT</h1></center>
+        <div class="float-container2">
+            <div id="buttons">
+            <button id=missionBTN class = "button-6" onclick="mission()">Mission</button>
+            <button id="valuesBTN" class = "button-6"onclick="values()">Values</button>
+            </div>
+        
+            <div id="descriptionBox">
+                <h3 id="missiontext"></h3>
+            </div>
+        </div>
+        
+        <center>
+        
+        <div class="audio-box">
+            <h2>In this web page there are options to Navigate using Audio!</h2>
+            <h3>Ensure your Mic is enabled to be able to use this feature</h3>
+            <ul>
+                <li>Lookup our mission</li>
+                    <ul><li>Say: "mission"</li></ul>
+                <li>Lookup our values</li>
+                    <ul><li>Say: "values"</li></ul>
+                    <li>Move to the home page </li>
+                    <ul><li>Say: "Home page"</li></ul>
+                    <li>Move to the help page</li>
+                    <ul><li>Say: "Help Page"</li></ul>
+            </ul>
+            <div class="audio-button">
+                <button type="button" onclick="annyang.start(); return false">Turn On Listening</button>
+                <button type="button" onclick="annyang.abort(); return false">Turn off Listening</button>
+            </div>
+        </div>     
+        </center>
+    </body>
+</HTML>

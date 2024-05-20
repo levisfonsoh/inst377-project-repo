@@ -115,7 +115,7 @@ async function abc(){
 }
 
 async function mission(){
-    const a = await fetch('https://inst377-project-repo-hevp.vercel.app/mission');
+    const a = await fetch(`https://${process.env.VERCEL_URL}/api/mission`);
     const b = await a.json();
     const c = b.mission;
     const d = document.getElementById("missiontext");
@@ -124,7 +124,7 @@ async function mission(){
 }
 
 async function values(){
-    const a = await fetch('https://inst377-project-repo-hevp.vercel.app/values');
+    const a = await fetch(`https://${process.env.VERCEL_URL}/api/values`);
     const b = await a.json();
     const c = b.Accessibility;
     const d = document.getElementById("missiontext");

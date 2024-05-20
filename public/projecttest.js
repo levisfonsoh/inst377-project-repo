@@ -115,7 +115,7 @@ async function abc(){
 }
 
 async function mission(){
-    const a = await fetch(`https://${process.env.VERCEL_URL}/api/mission`);
+    const a = await fetch(`http://127.0.0.1:3000/mission`);
     const b = await a.json();
     const c = b.mission;
     const d = document.getElementById("missiontext");
@@ -124,7 +124,7 @@ async function mission(){
 }
 
 async function values(){
-    const a = await fetch(`https://${process.env.VERCEL_URL}/api/values`);
+    const a = await fetch(`http://127.0.0.1:3000/values`);
     const b = await a.json();
     const c = b.Accessibility;
     const d = document.getElementById("missiontext");
